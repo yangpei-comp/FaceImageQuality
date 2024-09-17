@@ -28,8 +28,8 @@ from sklearn.preprocessing import normalize
 from sklearn.metrics.pairwise import euclidean_distances
 
 # Insightface imports
-from insightface.src import mtcnn_detector
-from insightface.src import face_preprocess
+from .insightface.src import mtcnn_detector
+from .insightface.src import face_preprocess
 
 
 class SER_FIQ:
