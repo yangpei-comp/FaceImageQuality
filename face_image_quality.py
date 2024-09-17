@@ -19,7 +19,7 @@ SOFTWARE.
 """
 # Installed modules imports
 import numpy as np
-np.bool = np.bool_
+np.bool = np.bool_  # A workaround for newer versions of numpy
 import mxnet as mx
 from mxnet import gluon
 import cv2
